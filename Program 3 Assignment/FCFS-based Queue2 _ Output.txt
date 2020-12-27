@@ -1,0 +1,13 @@
+-->l Test2
+l Test2
+threadOS: a new thread (thread=Thread[Thread-17,2,main] tid=7 pid=0)
+threadOS: a new thread (thread=Thread[Thread-19,2,main] tid=8 pid=7)
+threadOS: a new thread (thread=Thread[Thread-21,2,main] tid=9 pid=7)
+threadOS: a new thread (thread=Thread[Thread-23,2,main] tid=10 pid=7)
+threadOS: a new thread (thread=Thread[Thread-25,2,main] tid=11 pid=7)
+threadOS: a new thread (thread=Thread[Thread-27,2,main] tid=12 pid=7)
+Thread[b]: response time = 7500 turnaround time = 8501 execution time = 1001
+Thread[e]: response time = 14503 turnaround time = 15003 execution time = 500
+Thread[c]: response time = 9501 turnaround time = 24506 execution time = 15005
+Thread[a]: response time = 4999 turnaround time = 34009 execution time = 29010
+Thread[d]: response time = 12002 turnaround time = 42510 execution time = 30508

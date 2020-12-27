@@ -1,0 +1,346 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2576
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 AppleSymbols;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 [ywang11@sigill prog5]$ javac *.java\
+[ywang11@sigill prog5]$ java Boot\
+threadOS ver 1.0:\
+Type ? for help\
+threadOS: a new thread (thread=Thread[Thread-3,2,main] tid=0 pid=-1)\
+-->l Shell\
+l Shell\
+threadOS: a new thread (thread=Thread[Thread-5,2,main] tid=1 pid=0)\
+shell[1]% CmdServer &\
+CmdServer\
+threadOS: a new thread (thread=Thread[Thread-7,2,main] tid=2 pid=1)\
+shell[2]% sigint.eecs.wsu.edu is listening on port 5083\
+CmdClient 5083\
+CmdClient\
+threadOS: a new thread (thread=Thread[Thread-9,2,main] tid=3 pid=1)\
+Hello\
+olleH\
+whoami\
+ywang11\
+date\
+Sat Dec  5 18:24:36 PST 2020\
+bye\
+shell[3]% CmdClient 5083\
+CmdClient\
+threadOS: a new thread (thread=Thread[Thread-11,2,main] tid=4 pid=1)\
+Hello again\
+niaga olleH\
+echo Hello again\
+Hello again\
+ls\
+Boot.class\
+Cache.class\
+Cache$Entry.class\
+CmdClient.class\
+CmdClient.java\
+CmdServer.class\
+CmdServer.java\
+DateClient.class\
+DateClient.java\
+DateServer.class\
+DateServer.java\
+Directory.class\
+DISK\
+Disk.class\
+FileSystem.class\
+FileTable.class\
+FileTableEntry.class\
+HelloWorld.class\
+Inode.class\
+Kernel.class\
+Kernel_org.class\
+Loader.class\
+PingPong.class\
+QueueNode.class\
+Scheduler.class\
+Shell.class\
+SuperBlock.class\
+SyncQueue.class\
+SysLib.class\
+TCB.class\
+Test2b.class\
+Test2c.class\
+Test2.class\
+Test2d.class\
+Test2e.class\
+Test3.class\
+Test4.class\
+Test5.class\
+Test6.class\
+Test7a.class\
+Test7.class\
+TestPingPong.class\
+TestThread1.class\
+TestThread2b.class\
+TestThread2c.class\
+TestThread2.class\
+TestThread2d.class\
+TestThread3.class\
+ls -l\
+total 536\
+lrwxrwxrwx 1 ywang11 ywang11     38 Dec  4 20:30 Boot.class -> /net/ugrads/ywang11/pvt/TOS/Boot.class\
+lrwxrwxrwx 1 ywang11 ywang11     39 Dec  4 20:30 Cache.class -> /net/ugrads/ywang11/pvt/TOS/Cache.class\
+lrwxrwxrwx 1 ywang11 ywang11     45 Dec  4 20:30 Cache$Entry.class -> /net/ugrads/ywang11/pvt/TOS/Cache$Entry.class\
+-rw-r--r-- 1 ywang11 ywang11   2488 Dec  5 18:23 CmdClient.class\
+-rw-r--r-- 1 ywang11 ywang11   3063 Dec  5 18:23 CmdClient.java\
+-rw-r--r-- 1 ywang11 ywang11   2721 Dec  5 18:23 CmdServer.class\
+-rw-r--r-- 1 ywang11 ywang11   3801 Dec  5 18:22 CmdServer.java\
+-rw-r--r-- 1 ywang11 ywang11   1567 Dec  5 18:23 DateClient.class\
+-rw-r--r-- 1 ywang11 ywang11   1330 Dec  4 21:20 DateClient.java\
+-rw-r--r-- 1 ywang11 ywang11   1262 Dec  5 18:23 DateServer.class\
+-rw-r--r-- 1 ywang11 ywang11    886 Dec  4 20:45 DateServer.java\
+lrwxrwxrwx 1 ywang11 ywang11     43 Dec  4 20:30 Directory.class -> /net/ugrads/ywang11/pvt/TOS/Directory.class\
+-rw-r--r-- 1 ywang11 ywang11 512000 Dec  5 17:45 DISK\
+lrwxrwxrwx 1 ywang11 ywang11     38 Dec  4 20:30 Disk.class -> /net/ugrads/ywang11/pvt/TOS/Disk.class\
+lrwxrwxrwx 1 ywang11 ywang11     44 Dec  4 20:30 FileSystem.class -> /net/ugrads/ywang11/pvt/TOS/FileSystem.class\
+lrwxrwxrwx 1 ywang11 ywang11     43 Dec  4 20:30 FileTable.class -> /net/ugrads/ywang11/pvt/TOS/FileTable.class\
+lrwxrwxrwx 1 ywang11 ywang11     48 Dec  4 20:30 FileTableEntry.class -> /net/ugrads/ywang11/pvt/TOS/FileTableEntry.class\
+lrwxrwxrwx 1 ywang11 ywang11     44 Dec  4 20:30 HelloWorld.class -> /net/ugrads/ywang11/pvt/TOS/HelloWorld.class\
+lrwxrwxrwx 1 ywang11 ywang11     39 Dec  4 20:30 Inode.class -> /net/ugrads/ywang11/pvt/TOS/Inode.class\
+lrwxrwxrwx 1 ywang11 ywang11     40 Dec  4 20:30 Kernel.class -> /net/ugrads/ywang11/pvt/TOS/Kernel.class\
+lrwxrwxrwx 1 ywang11 ywang11     44 Dec  4 20:30 Kernel_org.class -> /net/ugrads/ywang11/pvt/TOS/Kernel_org.class\
+lrwxrwxrwx 1 ywang11 ywang11     40 Dec  4 20:30 Loader.class -> /net/ugrads/ywang11/pvt/TOS/Loader.class\
+lrwxrwxrwx 1 ywang11 ywang11     42 Dec  4 20:30 PingPong.class -> /net/ugrads/ywang11/pvt/TOS/PingPong.class\
+lrwxrwxrwx 1 ywang11 ywang11     43 Dec  4 20:30 QueueNode.class -> /net/ugrads/ywang11/pvt/TOS/QueueNode.class\
+lrwxrwxrwx 1 ywang11 ywang11     43 Dec  4 20:30 Scheduler.class -> /net/ugrads/ywang11/pvt/TOS/Scheduler.class\
+lrwxrwxrwx 1 ywang11 ywang11     39 Dec  4 20:30 Shell.class -> /net/ugrads/ywang11/pvt/TOS/Shell.class\
+lrwxrwxrwx 1 ywang11 ywang11     44 Dec  4 20:30 SuperBlock.class -> /net/ugrads/ywang11/pvt/TOS/SuperBlock.class\
+lrwxrwxrwx 1 ywang11 ywang11     43 Dec  4 20:30 SyncQueue.class -> /net/ugrads/ywang11/pvt/TOS/SyncQueue.class\
+lrwxrwxrwx 1 ywang11 ywang11     40 Dec  4 20:30 SysLib.class -> /net/ugrads/ywang11/pvt/TOS/SysLib.class\
+lrwxrwxrwx 1 ywang11 ywang11     37 Dec  4 20:30 TCB.class -> /net/ugrads/ywang11/pvt/TOS/TCB.class\
+lrwxrwxrwx 1 ywang11 ywang11     40 Dec  4 20:30 Test2b.class -> /net/ugrads/ywang11/pvt/TOS/Test2b.class\
+lrwxrwxrwx 1 ywang11 ywang11     40 Dec  4 20:30 Test2c.class -> /net/ugrads/ywang11/pvt/TOS/Test2c.class\
+lrwxrwxrwx 1 ywang11 ywang11     39 Dec  4 20:30 Test2.class -> /net/ugrads/ywang11/pvt/TOS/Test2.class\
+lrwxrwxrwx 1 ywang11 ywang11     40 Dec  4 20:30 Test2d.class -> /net/ugrads/ywang11/pvt/TOS/Test2d.class\
+lrwxrwxrwx 1 ywang11 ywang11     40 Dec  4 20:30 Test2e.class -> /net/ugrads/ywang11/pvt/TOS/Test2e.class\
+lrwxrwxrwx 1 ywang11 ywang11     39 Dec  4 20:30 Test3.class -> /net/ugrads/ywang11/pvt/TOS/Test3.class\
+lrwxrwxrwx 1 ywang11 ywang11     39 Dec  4 20:30 Test4.class -> /net/ugrads/ywang11/pvt/TOS/Test4.class\
+lrwxrwxrwx 1 ywang11 ywang11     39 Dec  4 20:30 Test5.class -> /net/ugrads/ywang11/pvt/TOS/Test5.class\
+lrwxrwxrwx 1 ywang11 ywang11     39 Dec  4 20:30 Test6.class -> /net/ugrads/ywang11/pvt/TOS/Test6.class\
+lrwxrwxrwx 1 ywang11 ywang11     40 Dec  4 20:30 Test7a.class -> /net/ugrads/ywang11/pvt/TOS/Test7a.class\
+lrwxrwxrwx 1 ywang11 ywang11     39 Dec  4 20:30 Test7.class -> /net/ugrads/ywang11/pvt/TOS/Test7.class\
+lrwxrwxrwx 1 ywang11 ywang11     46 Dec  4 20:30 TestPingPong.class -> /net/ugrads/ywang11/pvt/TOS/TestPingPong.class\
+lrwxrwxrwx 1 ywang11 ywang11     45 Dec  4 20:30 TestThread1.class -> /net/ugrads/ywang11/pvt/TOS/TestThread1.class\
+lrwxrwxrwx 1 ywang11 ywang11     46 Dec  4 20:30 TestThread2b.class -> /net/ugrads/ywang11/pvt/TOS/TestThread2b.class\
+lrwxrwxrwx 1 ywang11 ywang11     46 Dec  4 20:30 TestThread2c.class -> /net/ugrads/ywang11/pvt/TOS/TestThread2c.class\
+lrwxrwxrwx 1 ywang11 ywang11     45 Dec  4 20:30 TestThread2.class -> /net/ugrads/ywang11/pvt/TOS/TestThread2.class\
+lrwxrwxrwx 1 ywang11 ywang11     46 Dec  4 20:30 TestThread2d.class -> /net/ugrads/ywang11/pvt/TOS/TestThread2d.class\
+lrwxrwxrwx 1 ywang11 ywang11     45 Dec  4 20:30 TestThread3.class -> /net/ugrads/ywang11/pvt/TOS/TestThread3.class\
+ps ux\
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND\
+ywang11  15187  0.0  0.0 168576  4056 ?        S    16:50   0:03 sshd: ywang11@notty\
+ywang11  15191  0.0  0.0 119660  1828 ?        Ss   16:50   0:00 -bash\
+ywang11  15290  0.0  0.0 113548  1900 ?        S    16:50   0:00 bash\
+ywang11  15336  0.0  0.0 113280  1388 ?        S    16:50   0:00 sh /net/ugrads/ywang11/pvt/.vscode-server/bin/e5a624b788d92b8d34d1392e4c4d9789406efe8f/server.sh --host=127.0.0.1 --enable-remote-auto-shutdown --port=0\
+ywang11  15344  0.1  0.7 982476 46792 ?        Sl   16:50   0:10 /net/ugrads/ywang11/pvt/.vscode-server/bin/e5a624b788d92b8d34d1392e4c4d9789406efe8f/node /net/ugrads/ywang11/pvt/.vscode-server/bin/e5a624b788d92b8d34d1392e4c4d9789406efe8f/out/vs/server/main.js --host=127.0.0.1 --enable-remote-auto-shutdown --port=0\
+ywang11  15524  0.2  1.6 1134820 100224 ?      Sl   16:50   0:11 /net/ugrads/ywang11/pvt/.vscode-server/bin/e5a624b788d92b8d34d1392e4c4d9789406efe8f/node /net/ugrads/ywang11/pvt/.vscode-server/bin/e5a624b788d92b8d34d1392e4c4d9789406efe8f/out/bootstrap-fork --type=extensionHost --uriTransformerPath=/net/ugrads/ywang11/pvt/.vscode-server/bin/e5a624b788d92b8d34d1392e4c4d9789406efe8f/out/vs/server/uriTransformer.js\
+ywang11  15531  0.1  0.5 897620 31472 ?        Sl   16:50   0:08 /net/ugrads/ywang11/pvt/.vscode-server/bin/e5a624b788d92b8d34d1392e4c4d9789406efe8f/node /net/ugrads/ywang11/pvt/.vscode-server/bin/e5a624b788d92b8d34d1392e4c4d9789406efe8f/out/bootstrap-fork --type=watcherService\
+ywang11  20082  0.0  0.0 121240  3620 pts/7    Ss   17:28   0:00 /bin/bash\
+ywang11  24916  0.0  0.0 108052   352 ?        S    18:23   0:00 sleep 180\
+ywang11  24950  0.4  0.5 4564908 34972 pts/7   Sl+  18:24   0:00 java Boot\
+ywang11  25293  0.0  0.0 159696  2008 pts/7    R+   18:26   0:00 ps ux\
+man pkill\
+PGREP(1)                         User Commands                        PGREP(1)\
+\
+\
+\
+NAME\
+       pgrep,  pkill  -  look  up  or signal processes based on name and other\
+       attributes\
+\
+SYNOPSIS\
+       pgrep [options] pattern\
+       pkill [options] pattern\
+\
+DESCRIPTION\
+       pgrep looks through the  currently  running  processes  and  lists  the\
+       process IDs which match the selection criteria to stdout.  All the cri\uc0\u8208 \
+       teria have to match.  For example,\
+\
+              $ pgrep -u root sshd\
+\
+       will only list the processes called sshd AND owned  by  root.   On  the\
+       other hand,\
+\
+              $ pgrep -u root,daemon\
+\
+       will list the processes owned by root OR daemon.\
+\
+       pkill  will  send  the  specified  signal  (by default SIGTERM) to each\
+       process instead of listing them on stdout.\
+\
+OPTIONS\
+       -signal\
+       --signal signal\
+              Defines the signal to send to each matched process.  Either  the\
+              numeric or the symbolic signal name can be used.  (pkill only.)\
+\
+       -c, --count\
+              Suppress  normal  output; instead print a count of matching pro\uc0\u8208 \
+              cesses.  When count does not match anything, e.g. returns  zero,\
+              the command will return non-zero value.\
+\
+       -d, --delimiter delimiter\
+              Sets  the  string  used to delimit each process ID in the output\
+              (by default a newline).  (pgrep only.)\
+\
+       -f, --full\
+              The pattern is normally only matched against the  process  name.\
+              When -f is set, the full command line is used.\
+\
+       -g, --pgroup pgrp,...\
+              Only  match  processes in the process group IDs listed.  Process\
+              group 0 is translated into pgrep's or pkill's own process group.\
+\
+       -G, --group gid,...\
+              Only match processes whose real group ID is listed.  Either  the\
+              numerical or symbolical value may be used.\
+\
+       -l, --list-name\
+              List the process name as well as the process ID.  (pgrep only.)\
+\
+       -a, --list-full\
+              List  the  full  command line as well as the process ID.  (pgrep\
+              only.)\
+\
+       -n, --newest\
+              Select only the newest (most recently started) of  the  matching\
+              processes.\
+\
+       -o, --oldest\
+              Select  only the oldest (least recently started) of the matching\
+              processes.\
+\
+       -P, --parent ppid,...\
+              Only match processes whose parent process ID is listed.\
+\
+       -s, --session sid,...\
+              Only match processes whose process session ID is  listed.   Ses\uc0\u8208 \
+              sion ID 0 is translated into pgrep's or pkill's own session ID.\
+\
+       -t, --terminal term,...\
+              Only  match processes whose controlling terminal is listed.  The\
+              terminal name should be specified without the "/dev/" prefix.\
+\
+       -u, --euid euid,...\
+              Only match processes whose effective user ID is listed.   Either\
+              the numerical or symbolical value may be used.\
+\
+       -U, --uid uid,...\
+              Only  match  processes whose real user ID is listed.  Either the\
+              numerical or symbolical value may be used.\
+\
+       -v, --inverse\
+              Negates the matching.  This option is usually  used  in  pgrep's\
+              context.   In  pkill's  context  the short option is disabled to\
+              avoid accidental usage of the option.\
+\
+       -w, --lightweight\
+              Shows all thread ids instead of pids  in  pgrep's  context.   In\
+              pkill's context this option is disabled.\
+\
+       -x, --exact\
+              Only match processes whose names (or command line if -f is spec\uc0\u8208 \
+              ified) exactly match the pattern.\
+\
+       -F, --pidfile file\
+              Read PID's from file.  This option is perhaps  more  useful  for\
+              pkill than pgrep.\
+\
+       -L, --logpidfile\
+              Fail if pidfile (see -F) not locked.\
+\
+       --ns pid\
+              Match  processes that belong to the same namespaces. Required to\
+              run as root to match processes from other  users.  See  --nslist\
+              for how to limit which namespaces to match.\
+\
+       --nslist name,...\
+              Match  only  the provided namespaces. Available namespaces: ipc,\
+              mnt, net, pid, user,uts.\
+\
+       -V, --version\
+              Display version information and exit.\
+\
+       -h, --help\
+              Display help and exit.\
+\
+OPERANDS\
+       pattern\
+              Specifies an Extended Regular Expression  for  matching  against\
+              the process names or command lines.\
+\
+EXAMPLES\
+       Example 1: Find the process ID of the named daemon:\
+\
+              $ pgrep -u root named\
+\
+       Example 2: Make syslog reread its configuration file:\
+\
+              $ pkill -HUP syslogd\
+\
+       Example 3: Give detailed information on all xterm processes:\
+\
+              $ ps -fp $(pgrep -d, -x xterm)\
+\
+       Example 4: Make all netscape processes run nicer:\
+\
+              $ renice +4 $(pgrep netscape)\
+\
+EXIT STATUS\
+       0      One or more processes matched the criteria.\
+       1      No processes matched.\
+       2      Syntax error in the command line.\
+       3      Fatal error: out of memory etc.\
+\
+NOTES\
+       The  process  name  used  for  matching is limited to the 15 characters\
+       present in the output of /proc/pid/stat.  Use the -f  option  to  match\
+       against the complete command line, /proc/pid/cmdline.\
+\
+       The running pgrep or pkill process will never report itself as a match.\
+\
+BUGS\
+       The  options  -n and -o and -v can not be combined.  Let me know if you\
+       need to do this.\
+\
+       Defunct processes are reported.\
+\
+\
+SEE ALSO\
+       ps(1), regex(7), signal(7), killall(1), skill(1), kill(1), kill(2)\
+\
+STANDARDS\
+       pkill and pgrep were introduced in Sun's Solaris 7.   This  implementa\uc0\u8208 \
+       tion is fully compatible.\
+\
+AUTHOR\
+       Kjetil Torgrim Homme 
+\f1 \uc0\u10216 
+\f0 kjetilho@ifi.uio.no
+\f1 \uc0\u10217 
+\f0 \
+\
+REPORTING BUGS\
+       Please send bug reports to 
+\f1 \uc0\u10216 
+\f0 procps@freelists.org
+\f1 \uc0\u10217 
+\f0 \
+\
+\
+\
+procps-ng                        October 2012                         PGREP(1)\
+die\
+shell[4]% exit\
+exit\
+-->q\
+q\
+[ywang11@sigill prog5]$ }
